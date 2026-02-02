@@ -1,0 +1,14 @@
+---
+services:
+  soju:
+    container_name: soju
+    build:
+      context: .
+      args:
+        SOJU_VERSION: v0.10.1
+    ports:
+      - 6697:6697
+    volumes:
+      - ./data/soju:/var/lib/soju
+      - ./data/etc:/etc/soju
+

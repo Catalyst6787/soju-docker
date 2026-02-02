@@ -1,0 +1,5 @@
+db sqlite3 /var/lib/soju/main.db
+message-store fs /var/lib/soju/logs/
+listen ircs://
+listen unix+admin://
+tls /etc/soju/cert.key /etc/soju/key.pem
