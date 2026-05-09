@@ -9,9 +9,10 @@ services:
     expose:
       - 6697
     volumes:
-      - data/soju:/var/lib/soju
-      - data/etc:/etc/soju
+      - data_soju:/var/lib/soju
+      - data_etc:/etc/soju
 
 
 volumes:
-  data:
+  data_soju:
+  data_etc:
