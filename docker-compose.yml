@@ -9,6 +9,6 @@ services:
     ports:
       - 6697:6697
     volumes:
-      - ./data/soju:/var/lib/soju
-      - ./data/etc:/etc/soju
+      - ../code/data/soju:/var/lib/soju
+      - ../code/etc:/etc/soju
 
