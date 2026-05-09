@@ -10,4 +10,4 @@ services:
       - 6697
     volumes:
       - ../code/data/soju:/var/lib/soju
-      - ../code/etc:/etc/soju
+      - ../code/data/etc:/etc/soju
